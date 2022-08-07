@@ -1,0 +1,19 @@
+.ratSpeaksContainer{
+  height: 80px;
+  width: 100px;
+  position: absolute;
+  top: 50vh;
+  left: 170vh;
+  z-index: 1000;
+}
+.ratSpeaks::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
